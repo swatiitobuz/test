@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Shadows+Into+Light&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: cadetblue; */
+}
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+    /* font-family: 'Work Sans', sans-serif; */
+}
+input {
+    padding: 5px;
+    margin: 10px;
+}
+
+.check {
+    padding: 5px;
+    margin: 10px;
+    margin-left: 20px;
+    background-color: darksalmon;
+    border-radius: 10px;
+}
+.check:active {
+    background-color: darkgreen;
+}
+
+.delete {
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+.newtask {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+    border: thick double #32a1ce;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.hide{
+    display: none;
+}
